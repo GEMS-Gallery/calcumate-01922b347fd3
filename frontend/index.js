@@ -8,6 +8,10 @@ window.appendToDisplay = (value) => {
     display.value += value;
 };
 
+window.appendEmoji = (emoji) => {
+    display.value += emoji;
+};
+
 window.clearDisplay = () => {
     display.value = '';
     currentOperation = null;
